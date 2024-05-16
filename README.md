@@ -1,9 +1,13 @@
 # Azure Bastion セッション リモートのお試し環境を構築する Terraform サンプル
 
-このサンプルは、Azure Bastion のセッション リモートをお試しする環境を構築する Terraform 構成ファイルです。
+このサンプルは Azure Bastion のセッション リモートをお試しする環境を構築する Terraform 構成ファイルです。
 Standard SKU の Bastion ホスト、リモートアクセス先の仮想マシン (Windows/Linux)、録画データを格納するためのストレージ アカウントを作成します。
 
 ![構成図](./architecture.drawio.png)
+
+> [!CAUTION]
+> 作成したリソースは放置せず、検証後は削除してください（Azure Bastion の料金は高いです）。
+> いかなる損失が発生しても一切責任は負いません。
 
 ## 使い方
 
